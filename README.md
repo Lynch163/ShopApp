@@ -1,5 +1,7 @@
 # test-spa
 
+Приложение онлайн магазина
+
 ## Project setup
 ```
 npm install
