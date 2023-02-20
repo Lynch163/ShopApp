@@ -1,0 +1,38 @@
+<template>
+  <footer>
+    <div class="footer-wrap">
+      <router-link to="/my-favorite-product" class="footer-link">
+        Избранное
+      </router-link>
+      <a href="tel:+8 800 888 00 88" class="footer-phone">8 800 888 00 88</a>
+    </div>
+  </footer>
+</template>
+
+<script>
+export default {
+  name: "TheFooter",
+};
+</script>
+
+<style scoped>
+footer {
+  padding: 32px 0;
+  background-color: #0a1e32;
+}
+.footer-wrap {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+}
+.footer-link {
+  font-size: 18px;
+}
+.footer-phone {
+  font-size: 24px;
+}
+</style>
+>
