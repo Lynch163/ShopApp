@@ -4,6 +4,7 @@ body {
   font-family: Ubuntu;
   font-weight: 400;
   box-sizing: border-box;
+  margin: 0;
 }
 
 ul {
@@ -18,6 +19,11 @@ p {
 a {
   text-decoration: none;
   color: white;
+}
+
+img {
+  max-width: 100%;
+  display: block;
 }
 
 hr {

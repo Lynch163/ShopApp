@@ -40,7 +40,8 @@ export default {
 
 <style scoped>
 header {
-  padding: 11px 260px 24px;
+  max-width: 1400px;
+  margin: 11px auto 24px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -56,11 +57,11 @@ header {
   font-size: 8px;
 }
 a {
-  margin-right: 50px;
   font-size: 20px;
   font-weight: bold;
 }
-a:last-child {
-  margin-right: 0;
+
+.favorite-counter img {
+  display: inline;
 }
 </style>

@@ -91,9 +91,9 @@ export default {
   margin-bottom: 112px;
 }
 
-.main-picture-wrap img {
+/* .main-picture-wrap img {
   width: 100%;
-}
+} */
 
 .add-button {
   background: url(../assets/images/svg/empty-hearth.svg) no-repeat center;
