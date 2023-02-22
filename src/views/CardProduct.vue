@@ -92,10 +92,9 @@ h1 {
   margin-right: 40px;
 }
 
-/* .card-image-wrap img {
-  width: 100%;
+.card-image-wrap img {
   height: 100%;
-} */
+}
 
 .card-description-wrap {
   max-width: 560px;
