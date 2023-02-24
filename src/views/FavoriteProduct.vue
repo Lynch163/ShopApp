@@ -72,32 +72,4 @@ export default {
 };
 </script>
 
-<style scoped>
-hr {
-  margin-bottom: 65px;
-}
-
-.favorite-title {
-  margin: 0 auto 32px;
-  max-width: 1400px;
-}
-
-.delete-button {
-  background: url(../assets/images/svg/cross.svg) no-repeat center;
-  width: 18px;
-  height: 18px;
-  border: none;
-  position: absolute;
-  top: 10px;
-  right: 10px;
-}
-
-.favorite-empty {
-  font-weight: 500;
-  font-size: 32px;
-  text-align: center;
-  color: #464c58;
-  margin-top: 20vh;
-  margin-bottom: 40vh;
-}
-</style>
+<style scoped lang="scss" src="../assets/scss/views/favorite-product.scss" />

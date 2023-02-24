@@ -12,12 +12,8 @@
           alt="image-of-product"
           class="product-item__image"
         />
-        <button
-          @click="addToFavorite(item)"
-          type="button"
-          class="add-button"
-        ></button>
       </div>
+      <button @click="addToFavorite(item)" type="button" class="add-button" />
       <router-link :to="'/card-product/' + item.id">
         <div class="product-text-block-wrap">
           <p class="product-item__description">{{ item.title }}</p>
@@ -86,22 +82,4 @@ export default {
 };
 </script>
 
-<style scoped>
-.main-picture-wrap {
-  margin-bottom: 112px;
-}
-
-.add-button {
-  background: url(../assets/images/svg/empty-hearth.svg) no-repeat center;
-  width: 25px;
-  height: 25px;
-  border: none;
-  position: absolute;
-  top: 10px;
-  right: 10px;
-}
-
-.add-button:hover {
-  background: url(../assets/images/svg/fulled-hearth.svg) no-repeat center;
-}
-</style>
+<style scoped lang="scss" src="../assets/scss/views/main-page.scss" />

@@ -38,30 +38,4 @@ export default {
 };
 </script>
 
-<style scoped>
-header {
-  max-width: 1400px;
-  margin: 11px auto 24px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.counter {
-  position: relative;
-  top: -10px;
-  left: -6px;
-  padding: 5px 6px;
-  border-radius: 50%;
-  background-color: #eb4c47;
-  font-weight: 700;
-  font-size: 8px;
-}
-a {
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.favorite-counter img {
-  display: inline;
-}
-</style>
+<style scoped lang="scss" src="../assets/scss/components/header.scss" />

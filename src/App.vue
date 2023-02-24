@@ -18,4 +18,4 @@ export default {
 };
 </script>
 
-<style src="./assets/style.css" />
+<style lang="scss" src="./assets/scss/index.scss" />

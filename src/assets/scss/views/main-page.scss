@@ -1,0 +1,17 @@
+.main-picture-wrap {
+    margin-bottom: 112px;
+  }
+  
+  .add-button {
+    background: url(../../images/svg/empty-hearth.svg) no-repeat center;
+    width: 25px;
+    height: 25px;
+    border: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .add-button:hover {
+    background: url(../../images/svg/fulled-hearth.svg) no-repeat center;
+  }
