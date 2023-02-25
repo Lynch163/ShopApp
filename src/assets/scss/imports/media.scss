@@ -2,8 +2,12 @@
     header,.footer-wrap{
         max-width: 1040px;
       }
+    .favorite-title{
+      max-width: 1040px;
+    }
     .products-list {
       grid-template-columns: 1fr 1fr 1fr;
+      max-width: 1040px;
     }
   }
 
@@ -11,8 +15,22 @@
     header,.footer-wrap{
         max-width: 680px;
       }
+    .favorite-title{
+      max-width: 680px;
+    }
     .products-list {
       grid-template-columns: 1fr 1fr;
+      max-width: 680px;
+    }
+    .card-item{
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .card-image-wrap{
+      margin-right: 0;
+    }
+    .card-image-wrap img{
+      margin: 0 auto;
     }
   }
 
@@ -20,6 +38,9 @@
     header,.footer-wrap{
         max-width: 360px;
       }
+    .favorite-title{
+      max-width: 360px;
+    }
     .products-list {
       grid-template-columns: 1fr;
     }
