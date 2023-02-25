@@ -37,5 +37,3 @@ export default {
   },
 };
 </script>
-
-<style scoped lang="scss" src="../assets/scss/components/header.scss" />

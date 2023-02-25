@@ -1,93 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
+@import url(./imports/default.scss);
+@import url(./imports/header.scss);
+@import url(./imports/main-page-and-favorite-product.scss);
+@import url(./views/card-product.scss);
+@import url(./imports/footer.scss);
+@import url(./imports/media.scss);
 
-body {
-  font-family: Ubuntu;
-  font-weight: 400;
-  box-sizing: border-box;
-  margin: 0;
-}
 
-ul {
-  list-style: none;
-  padding-left: 0;
-}
 
-p {
-  margin: 0;
-}
-
-a {
-  text-decoration: none;
-  color: white;
-}
-
-img {
-  max-width: 100%;
-  display: block;
-
-}
-
-hr {
-  margin: 0;
-}
-
-h1,
-h2 {
-  margin: 0;
-}
-
-button {
-  cursor: pointer;
-}
-
-.products-list {
-    max-width: 1400px;
-    margin: 0 auto 73px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 40px;
-   
-  }
   
-  .product-item {
-    width: 320px;
-    margin-bottom: 39px;
-    text-align: center;
-    position: relative;
-  }
 
-  .product-item:hover{
-    box-shadow: 0 0 10px rgba(145, 139, 139, 0.5);
-  }
-  
-  .product-image-wrap {
-    margin-bottom: 16px;
-    height: 336px;
-    display: flex;
 
-  }
-  
-  .product-item__image {
-    max-width: 320px;
-    max-height: 336px;
-    object-fit: contain;
-    margin: auto;
 
-  }
+
+
   
-  .product-text-block-wrap {
-    margin-bottom: 16px;
-    box-shadow: none;
-  }
-  
-  .product-item__description {
-    font-size: 12px;
-    color: #0a1e32;
-    margin-bottom: 8px;
-  }
-  
-  .product-item__cost {
-    font-size: 16px;
-    font-weight: 700;
-    color: #464c58;
-  }

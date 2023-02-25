@@ -1,0 +1,30 @@
+@media (max-width: 1400px) {
+    header,.footer-wrap{
+        max-width: 1040px;
+      }
+    .products-list {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+
+  @media (max-width: 1040px) {
+    header,.footer-wrap{
+        max-width: 680px;
+      }
+    .products-list {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media (max-width: 680px) {
+    header,.footer-wrap{
+        max-width: 360px;
+      }
+    .products-list {
+      grid-template-columns: 1fr;
+    }
+    .product-item {
+    margin: 0 auto 39px;
+    }
+  }
+

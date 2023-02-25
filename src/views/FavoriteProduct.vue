@@ -72,4 +72,8 @@ export default {
 };
 </script>
 
-<style scoped lang="scss" src="../assets/scss/views/favorite-product.scss" />
+<style scoped>
+hr {
+  margin-bottom: 65px;
+}
+</style>

@@ -81,5 +81,3 @@ export default {
   },
 };
 </script>
-
-<style scoped lang="scss" src="../assets/scss/views/main-page.scss" />

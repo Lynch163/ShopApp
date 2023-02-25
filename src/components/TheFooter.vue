@@ -14,5 +14,3 @@ export default {
   name: "TheFooter",
 };
 </script>
-
-<style scoped lang="scss" src="../assets/scss/components/footer.scss" />

@@ -1,11 +1,4 @@
-hr {
-    margin-bottom: 80px;
-  }
-  
-  h1 {
-    color: red;
-  }
-  
+
   .card-item {
     display: flex;
     justify-content: center;
@@ -58,8 +51,7 @@ hr {
   }
   
   .card-button:hover {
-    background: url(../../images/svg/hover-darkblue-hearth.svg) no-repeat 15%
-      50%;
+    background: url(../../images/svg/hover-darkblue-hearth.svg) no-repeat 15% 50%;
   }
   
   .card-button img {

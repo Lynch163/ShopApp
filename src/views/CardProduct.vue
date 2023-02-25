@@ -71,4 +71,8 @@ export default {
 };
 </script>
 
-<style scoped lang="scss" src="../assets/scss/views/card-product.scss" />
+<style scoped>
+hr {
+  margin-bottom: 80px;
+}
+</style>
